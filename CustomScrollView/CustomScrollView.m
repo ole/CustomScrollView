@@ -83,10 +83,10 @@
             velocity.y = -velocity.y;
             NSLog(@"velocity: %@", NSStringFromCGPoint(velocity));
 
-            POPDecayAnimation *decayAnimation = [POPDecayAnimation animationWithPropertyNamed:kPOPViewBounds];
-            decayAnimation.clampMode = kPOPAnimationClampBoth;
+            POPDecayAnimation *decayAnimation = [POPDecayAnimation animation];
+            
 
-            POPAnimatableProperty *prop = [POPAnimatableProperty propertyWithName:@"com.rounak.boundsY" initializer:^(POPMutableAnimatableProperty *prop) {
+            POPAnimatableProperty *prop = [POPAnimatableProperty propertyWithName:@"com.rounak.bounds.origin" initializer:^(POPMutableAnimatableProperty *prop) {
                 // read value
                 prop.readBlock = ^(id obj, CGFloat values[]) {
                     NSLog(@"readBlock values: %f", values[0]);
