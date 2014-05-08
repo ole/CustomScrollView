@@ -11,5 +11,7 @@
 @interface CustomScrollView : UIView
 
 @property (nonatomic) CGSize contentSize;
+@property (nonatomic) BOOL scrollVertical;
+@property (nonatomic) BOOL scrollHorizontal;
 
 @end

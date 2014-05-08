@@ -23,7 +23,8 @@
     [super viewDidLoad];
     
     self.customScrollView = [[CustomScrollView alloc] initWithFrame:self.view.bounds];
-    self.customScrollView.contentSize = CGSizeMake(self.view.bounds.size.width, 5000);
+    self.customScrollView.contentSize = CGSizeMake(self.view.bounds.size.width, 1000);
+    self.customScrollView.scrollHorizontal = NO;
     
     UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(20, 20, 100, 100)];
     UIView *greenView = [[UIView alloc] initWithFrame:CGRectMake(150, 160, 150, 200)];
