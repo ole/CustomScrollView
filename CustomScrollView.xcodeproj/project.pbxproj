@@ -16,24 +16,9 @@
 		5D3A783818FF1912006CCAB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A783718FF1912006CCAB3 /* AppDelegate.m */; };
 		5D3A783E18FF1912006CCAB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A783D18FF1912006CCAB3 /* ViewController.m */; };
 		5D3A784018FF1912006CCAB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A783F18FF1912006CCAB3 /* Images.xcassets */; };
-		5D3A784718FF1912006CCAB3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A784618FF1912006CCAB3 /* XCTest.framework */; };
-		5D3A784818FF1912006CCAB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A782718FF1912006CCAB3 /* Foundation.framework */; };
-		5D3A784918FF1912006CCAB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A782B18FF1912006CCAB3 /* UIKit.framework */; };
-		5D3A785118FF1912006CCAB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A784F18FF1912006CCAB3 /* InfoPlist.strings */; };
-		5D3A785318FF1912006CCAB3 /* CustomScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A785218FF1912006CCAB3 /* CustomScrollViewTests.m */; };
 		5D3A785E18FF1923006CCAB3 /* CustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A785D18FF1923006CCAB3 /* CustomScrollView.m */; };
 		F981C00E1914449600EF08E0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F981C00D1914449600EF08E0 /* Podfile */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5D3A784A18FF1912006CCAB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D3A781C18FF1912006CCAB3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D3A782318FF1912006CCAB3;
-			remoteInfo = CustomScrollView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0870BFB366004F1B98CDECEB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,11 +35,7 @@
 		5D3A783C18FF1912006CCAB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5D3A783D18FF1912006CCAB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5D3A783F18FF1912006CCAB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5D3A784518FF1912006CCAB3 /* CustomScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3A784618FF1912006CCAB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5D3A784E18FF1912006CCAB3 /* CustomScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomScrollViewTests-Info.plist"; sourceTree = "<group>"; };
-		5D3A785018FF1912006CCAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5D3A785218FF1912006CCAB3 /* CustomScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomScrollViewTests.m; sourceTree = "<group>"; };
 		5D3A785C18FF1923006CCAB3 /* CustomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollView.h; sourceTree = "<group>"; };
 		5D3A785D18FF1923006CCAB3 /* CustomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollView.m; sourceTree = "<group>"; };
 		B46FF41BCE7149C494BAF198 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -73,16 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D3A784218FF1912006CCAB3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D3A784718FF1912006CCAB3 /* XCTest.framework in Frameworks */,
-				5D3A784918FF1912006CCAB3 /* UIKit.framework in Frameworks */,
-				5D3A784818FF1912006CCAB3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,7 +62,6 @@
 			children = (
 				F981C00D1914449600EF08E0 /* Podfile */,
 				5D3A782D18FF1912006CCAB3 /* CustomScrollView */,
-				5D3A784C18FF1912006CCAB3 /* CustomScrollViewTests */,
 				5D3A782618FF1912006CCAB3 /* Frameworks */,
 				5D3A782518FF1912006CCAB3 /* Products */,
 				B46FF41BCE7149C494BAF198 /* Pods.xcconfig */,
@@ -102,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				5D3A782418FF1912006CCAB3 /* CustomScrollView.app */,
-				5D3A784518FF1912006CCAB3 /* CustomScrollViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,24 +114,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5D3A784C18FF1912006CCAB3 /* CustomScrollViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				5D3A785218FF1912006CCAB3 /* CustomScrollViewTests.m */,
-				5D3A784D18FF1912006CCAB3 /* Supporting Files */,
-			);
-			path = CustomScrollViewTests;
-			sourceTree = "<group>";
-		};
-		5D3A784D18FF1912006CCAB3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D3A784E18FF1912006CCAB3 /* CustomScrollViewTests-Info.plist */,
-				5D3A784F18FF1912006CCAB3 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,24 +136,6 @@
 			productReference = 5D3A782418FF1912006CCAB3 /* CustomScrollView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5D3A784418FF1912006CCAB3 /* CustomScrollViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D3A785918FF1912006CCAB3 /* Build configuration list for PBXNativeTarget "CustomScrollViewTests" */;
-			buildPhases = (
-				5D3A784118FF1912006CCAB3 /* Sources */,
-				5D3A784218FF1912006CCAB3 /* Frameworks */,
-				5D3A784318FF1912006CCAB3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5D3A784B18FF1912006CCAB3 /* PBXTargetDependency */,
-			);
-			name = CustomScrollViewTests;
-			productName = CustomScrollViewTests;
-			productReference = 5D3A784518FF1912006CCAB3 /* CustomScrollViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,11 +144,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Ole Begemann";
-				TargetAttributes = {
-					5D3A784418FF1912006CCAB3 = {
-						TestTargetID = 5D3A782318FF1912006CCAB3;
-					};
-				};
 			};
 			buildConfigurationList = 5D3A781F18FF1912006CCAB3 /* Build configuration list for PBXProject "CustomScrollView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -231,7 +159,6 @@
 			projectRoot = "";
 			targets = (
 				5D3A782318FF1912006CCAB3 /* CustomScrollView */,
-				5D3A784418FF1912006CCAB3 /* CustomScrollViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,14 +171,6 @@
 				F981C00E1914449600EF08E0 /* Podfile in Resources */,
 				5D3A784018FF1912006CCAB3 /* Images.xcassets in Resources */,
 				5D3A783218FF1912006CCAB3 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D3A784318FF1912006CCAB3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D3A785118FF1912006CCAB3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,37 +221,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D3A784118FF1912006CCAB3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D3A785318FF1912006CCAB3 /* CustomScrollViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5D3A784B18FF1912006CCAB3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D3A782318FF1912006CCAB3 /* CustomScrollView */;
-			targetProxy = 5D3A784A18FF1912006CCAB3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D3A783018FF1912006CCAB3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5D3A783118FF1912006CCAB3 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5D3A784F18FF1912006CCAB3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D3A785018FF1912006CCAB3 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -438,46 +333,6 @@
 			};
 			name = Release;
 		};
-		5D3A785A18FF1912006CCAB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomScrollView.app/CustomScrollView";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CustomScrollView/CustomScrollView-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "CustomScrollViewTests/CustomScrollViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		5D3A785B18FF1912006CCAB3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomScrollView.app/CustomScrollView";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CustomScrollView/CustomScrollView-Prefix.pch";
-				INFOPLIST_FILE = "CustomScrollViewTests/CustomScrollViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -495,15 +350,6 @@
 			buildConfigurations = (
 				5D3A785718FF1912006CCAB3 /* Debug */,
 				5D3A785818FF1912006CCAB3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D3A785918FF1912006CCAB3 /* Build configuration list for PBXNativeTarget "CustomScrollViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D3A785A18FF1912006CCAB3 /* Debug */,
-				5D3A785B18FF1912006CCAB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
